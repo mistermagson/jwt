@@ -1,0 +1,27 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "API Autenticação",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index4.js",
+    "dev": "nodemon index4.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Magson Magalhães",
+  "license": "ISC",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "body-parser": "1.15.0",
+    "cors": "2.7.1",
+    "dotenv": "^16.0.2",
+    "express": "4.13.4",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "2.21.0",
+    "promise": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
